@@ -62,13 +62,56 @@ footer {
 }
 
 .splash {
-  background-image: url(../images/splash_images/IMG_0773.jpg);
-  background-size: 100%;
+  background-image: url(../images/splash_images/IMG_0276.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 700px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .splash_title {
-  margin-top: 50%;
+  color: #ffffff;
+  text-shadow:
+   -1px -1px 0 #666666,  
+    1px -1px 0 #666666,
+    -1px 1px 0 #666666,
+     1px 1px 0 #666666;
+  font-size: 200%;
+  padding: 30px;
+  border: solid 2px #dddddd;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.splash_title p {
+  color: #ffffff;
+  text-shadow:
+   -1px -1px 0 #666666,  
+    1px -1px 0 #666666,
+    -1px 1px 0 #666666,
+     1px 1px 0 #666666;
+}
+
+.splash_title a {
+  color: #ffffff;
+  padding: 10px;
+  border: solid 2px #4aaaa5;
+  text-shadow:
+   -1px -1px 0 #666666,  
+    1px -1px 0 #666666,
+    -1px 1px 0 #666666,
+     1px 1px 0 #666666;
+}
+
+.splash_title a:hover {
+  border: solid 2px #48c4bd;
+  text-shadow:
+   -1px -1px 0 #48c4bd,  
+    1px -1px 0 #48c4bd,
+    -1px 1px 0 #48c4bd,
+     1px 1px 0 #48c4bd;
 }
 
 .small {
